@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Import font face */
+
+@font-face {
+    font-family: "Poppins Regular", sans-serif;
+    src: url(font/);
+}
+
+/* End font face */
+
+/* Meta Color Css */
+
+.menu_bar li .kuning {
+    color: rgb(219, 219, 79);
+}
+
+/* End Translate Color */
+
+body {
+    font: 16px/28px "Poppins Regular", sans-serif;
+    box-sizing: border-box;
+    background-color: #eaeaea;
+}
+
+div {
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.hero {
+    width: 900px;
+    text-align: center;
+    color: #333;
+}
+
+.judul {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 15px;
+
+}
+
+.sub {
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.search-box {
+    width: 310px;
+    height: 32px;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid rgb(104, 152, 255);
+}
+
+span {
+    padding: 7px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(139, 176, 255);
+}
+
+span:hover {
+    background-color: rgb(118, 149, 218);
+    transition: background 0.2s;
+}
+
+.signup {
+    background-color: rgb(250, 250, 103);
+}
+
+.signup:hover {
+    background-color: rgb(219, 219, 79);
+    transition: background 0.2s;
+}
+
+
+
+.article_satu {
+    border-bottom: 3px solid rgb(104, 152, 255);
+    width: 900px;
+    background-color: #cfcfcf;
+}
+
+.article_dua {
+    border-bottom: 3px solid rgb(104, 152, 255);
+    width: 900px;
+    background-color: #cfcfcf;
+}
+
+.nav_bar {
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 15px;
+    margin: 0;
+    background-color: #333;
+    position: relative;
+    z-index: 99999;
+    border-bottom: 2px solid rgb(104, 152, 255);
+}
+
+.nav_bar h2 {
+    color: rgb(104, 152, 255);
+    margin: -5px 30px;
+    float: left;
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.menu_bar {
+    float: right;
+    margin: -7px 140px;
+}
+
+.nav_bar ul li {
+    display: inline-block;
+    margin-right: 7px;
+}
+
+.nav_bar a {
+    color: rgb(233, 233, 233);
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+.nav_bar a:hover {
+    color: rgb(250, 250, 103);
+    transition: color 0.5s;
+}
+
+.info_bar {
+    margin: 20px auto;
+    width: 700px;
+}
+
+.footer {
+    background-color: #333;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin:-15px auto;
+    color: rgb(233, 233, 233);
+
+}
+
+
+.footer a {
+    text-decoration: none;
+    color: rgb(104, 152, 255);
+}
+
+
+/* Service */
+    .service {
+        background-color: #eaeaea;
+        width: 100%;
+    }
+/*  End Service */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
